@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.rockpaperscissorsgame.ui.RockPaperScissorsView
 import com.example.rockpaperscissorsgame.ui.theme.RockPaperScissorsGameTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,6 +20,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             RockPaperScissorsGameTheme {
+                RockPaperScissorsView()
             }
         }
     }
